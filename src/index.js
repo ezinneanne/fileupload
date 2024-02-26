@@ -21,7 +21,7 @@ console.log("this should run");
 const analytics = getAnalytics(app);
 
 const messaging = getMessaging();
-getToken(messaging, { vapidKey: 'BF5sPAJ4voiR26i7lirCDXegixc3BhIk8IHQX6UWKbAfepeR_qUfErNDYODJavRZ2czgHBYQl8nj5Cx781Rx3Vg'}).then((currentToken) => {
+getToken(messaging, { vapidKey: 'vapidKey'}).then((currentToken) => {
   if (currentToken) {
     console.log(currentToken);
   } else {
